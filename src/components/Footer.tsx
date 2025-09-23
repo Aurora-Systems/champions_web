@@ -47,7 +47,7 @@ const Footer = () => {
           <Col lg={3} md={6}>
             <h6 className="text-secondary-custom mb-4">Contact Info</h6>
             <div className="text-light opacity-75">
-              <p className="mb-2">inno.muza@gmail.com</p>
+              <p className="mb-2">info@championsaccounting.co.zw</p>
               <p className="mb-2">+263 78 110 7033</p>
               <p className="mb-2">Zimbabwe</p>
               <p className="mb-0">Mon - Fri: 8:00 AM - 5:00 PM</p>

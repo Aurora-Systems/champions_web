@@ -8,6 +8,7 @@ import Values from './components/Values';
 import Team from './components/Team';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import FloatingWhatsApp from 'react-floating-whatsapp';
 
 function App() {
   return (
@@ -20,6 +21,11 @@ function App() {
       <Team />
       <Contact />
       <Footer />
+      <FloatingWhatsApp
+        phoneNumber='+263781107033'
+        avatar='https://i.ibb.co/7W8f1YV/cas-logo.png'
+        accountName='Champions Accounting Services'
+      />
     </div>
   );
 }
