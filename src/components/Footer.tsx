@@ -36,11 +36,11 @@ const Footer = () => {
           <Col lg={3} md={6}>
             <h6 className="text-secondary-custom mb-4">Services</h6>
             <ul className="list-unstyled">
-              <li className="mb-2 text-light opacity-75">IFRS Financial Accounts</li>
-              <li className="mb-2 text-light opacity-75">Audit Support</li>
-              <li className="mb-2 text-light opacity-75">Tax Advisory</li>
-              <li className="mb-2 text-light opacity-75">Business Plans</li>
-              <li className="mb-2 text-light opacity-75">Internal Audits</li>
+              <a href="https://wa.me/263781107033?text=IFRS Financial Accounts" target="_blank"><li className="mb-2 text-light opacity-75">IFRS Financial Accounts</li></a>
+               <a href="https://wa.me/263781107033?text=Audit Support" target="_blank"><li className="mb-2 text-light opacity-75">Audit Support</li></a>
+               <a href="https://wa.me/263781107033?text=Tax Advisory" target="_blank"><li className="mb-2 text-light opacity-75">Tax Advisory</li></a>
+               <a href="https://wa.me/263781107033?text=Business Plans" target="_blank"><li className="mb-2 text-light opacity-75">Business Plans</li></a>
+               <a href="https://wa.me/263781107033?text=Internal Audits" target="_blank"><li className="mb-2 text-light opacity-75">Internal Audits</li></a>
             </ul>
           </Col>
           
