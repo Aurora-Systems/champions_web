@@ -24,30 +24,30 @@ export const Navbar = () => {
             <div className="container nav-design p-3 rounded">
                 <a href="/" onClick={closeNavbar}><h5 className="mt-1 me-3 text-white text" >CAS</h5></a>
                 <button className="navbar-toggler bg-white border-0" type="button" onClick={toggleNavbar}>
-                    <i className="bi bi-list text-primary"></i>
+                    <i className="bi bi-list p-txt"></i>
                 </button>
                 
                 <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`}>
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link" href={page_links.home} onClick={closeNavbar}>Home</a> 
+                            <a className="nav-link" href={"#hero"} onClick={closeNavbar}>Home</a> 
                         </li>
                       
                         <li className="nav-item">
-                            <a className="nav-link" href={page_links.roadmap} onClick={closeNavbar}>About</a> 
+                            <a className="nav-link" href={"#about"} onClick={closeNavbar}>About</a> 
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href={page_links.portfolio} onClick={closeNavbar}>Services</a>
+                            <a className="nav-link" href={"#services"} onClick={closeNavbar}>Services</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href={page_links.careers} onClick={closeNavbar}>Values</a>
+                            <a className="nav-link" href={"#values"} onClick={closeNavbar}>Values</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href={page_links.blog} onClick={closeNavbar}>Team</a>
+                            <a className="nav-link" href={"#team"} onClick={closeNavbar}>Team</a>
                         </li>
                        
                     </ul>
-                    <a href={page_links.contact} onClick={closeNavbar}><button className="btn p-btn rounded w-sm-100">Contact Us</button></a>
+                    <a href={"#contact"} onClick={closeNavbar}><button className="btn p-btn rounded w-sm-100">Contact Us</button></a>
                 </div>
             </div>
         </nav>

@@ -26,9 +26,9 @@ const Team = () => {
                     <h6 className="text-secondary-custom mb-3">
                       Managing Consultant & Chartered Accountant
                     </h6>
-                    <Badge bg="light" text="dark" className="mb-3">
+                    <div  className="mb-3 rounded text-dark bg-white p-2">
                       Member of the Institute of Chartered Accountants Zimbabwe (ICAZ)
-                    </Badge>
+                    </div>
                     <p className="text-white" >
                       With more than 20 years of experience in financial accounting and reporting, 
                       internal audit, bookkeeping, and taxation, Innocent leads our team with 
@@ -63,9 +63,9 @@ const Team = () => {
                     <div className="h2 text-secondary-custom fw-bold">100%</div>
                     <small >Client Focused</small>
                   </Col>
-                  <Col className="mb-3 p_bg p-3 rounded">
+                  <Col className="mb-3 p_bg p-3 rounded h-100">
                     <div className="h2 text-secondary-custom fw-bold">ICAZ</div>
-                    <small >Certified</small>
+                    <small >100% Certified</small>
                   </Col>
         </Row>
     </section>

@@ -24,7 +24,7 @@ const Contact = () => {
     }
 
   return (
-    <section id="contact" className="section-padding p_bg container rounded  p-5 text-white mb-5">
+    <section id="contact" className="section-padding p_bg container rounded  p-3 text-white mb-5">
       <Container>
         <Row className="mb-5">
           <Col lg={8} className="mx-auto text-center">

@@ -159,3 +159,7 @@ a{
 a{
   text-decoration: none !important;
 }
+
+.p-txt{
+  color: var(--dark-primary);
+}

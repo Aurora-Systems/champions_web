@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import './index.css';
 import { Navbar } from './components/NavigationBar';
 import Hero from './components/Hero';
@@ -12,7 +13,7 @@ import FloatingWhatsApp from 'react-floating-whatsapp';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
       <Navbar/>
       <Hero />
       <About />
