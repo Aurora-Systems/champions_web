@@ -1,8 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
-@font-face {
-  font-family: 'league';
-  src: url("./font.ttf");
-}
 :root{
   --bg-gradient: linear-gradient( #5c585c, #81a6c2);
   --light-primary: #81a6c2;
@@ -16,7 +13,7 @@
 body{
   background-color: #fff;
   font-size: 18px;
-  font-family: "league" !important;
+  font-family: "League Spartan", sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -157,4 +154,8 @@ a{
 
 .opacity-bg{
   background-color: #5c585c8e;
+}
+
+a{
+  text-decoration: none !important;
 }
