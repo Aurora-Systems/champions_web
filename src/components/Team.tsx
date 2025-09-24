@@ -1,4 +1,4 @@
-import { Row, Col, Card, Badge } from 'react-bootstrap';
+import { Row, Col, Card} from 'react-bootstrap';
 import Bg from './BgImg';
 
 const Team = () => {
